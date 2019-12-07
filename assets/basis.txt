@@ -1,0 +1,12 @@
+>> Basis
+This is the basis for the Final Integrated Project (FIP). 
+
+>>> Initial Premise
+Treat the project as client. Use the marking scheme and common sense as the client's requirements. Meet those requirements with version 1; show them something better with version 2.
+*Note- This all implies that the FIP is being completed from the perspective of a business/freelancer doing business for what is most likely another business. Business-to-Business (B-to-B). Whether business or freelancing it is important to have a clear outline of services, differentiation in the market, and standards for doing business. More details about the perspective chosen can be found here...
+
+>>> The Underlying Approach
+Create version 1 in html and css. Create version 2 to be a template using php. Create version 2's ManagerCenter for: 1)site changes/ menu changes, 2)business apps, 3)sales analytics. 
+
+>>> Methodology 
+

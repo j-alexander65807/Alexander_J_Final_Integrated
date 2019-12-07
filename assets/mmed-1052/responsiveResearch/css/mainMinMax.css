@@ -1,0 +1,16 @@
+.container {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
+    grid-template-rows: repeat(7, 50px);  
+}
+
+.box {
+    background-color: #6E6E6E;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 3px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}

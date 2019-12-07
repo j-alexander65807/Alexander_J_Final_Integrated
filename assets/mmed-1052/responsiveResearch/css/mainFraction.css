@@ -1,0 +1,18 @@
+.container {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    /*--Try this one out--|
+    grid-template-columns: 1fr 2fr 1fr;  */
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;  
+}
+
+.box {
+    background-color: #6E6E6E;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 3px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
