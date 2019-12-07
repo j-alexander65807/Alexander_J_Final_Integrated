@@ -1,24 +1,65 @@
-<html>
-    <head>
-        <title>Bourdagery's Cafe</title>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-    </head>
-    <body>
-        <header>
-            <h1 class="hidden">Bourdagery's Cafe</h1>
-            <section id="nav">
-            <nav>
-            <h2 class="hidden">Main Navigator</h2>	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bourdagery's Café</title>  
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">  
+</head>
+<body>
+  <div class="container">
+    <h1 class="hidden">Bourdagery's Café</h1>
+    <header class="mainHeader">
+      <div class="mainBanner">
+        <img src="images/logo_asc.svg" alt="Bourdagery's Café" id="banner">
+      </div>
+      <nav class="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
             <ul>
-                <li>	
-                <a href="index.html">
-                    <img src="images/logo.jpg" alt="Home Link">
-                </a></li>
-                <li>	
-                <a href="menu.html">Menu</a></li>
-                <li>
-                <a href="preorder.html">Pre-Order</a></li>
-          </ul>
-        </header>
-    </body>
+               <li class="selected"><a href="#">Home</a></li>
+               <li><a href="menu.html">Menu</a></li>
+               <li><a href="preorders.html">Pre-Orders</a></li>
+            </ul>
+      </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer class="mainFooter">
+        
+        <!--I decided I should have social media links so I added them to my footer -->
+        <div class="socialMedia">
+          <h2 class="hidden">Social Media</h2>
+            <ul id="iconNav">
+                <li id="facebook">
+                  <a href="http://www.facebook.com">
+                    <img src="images/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li id="twitter">
+                  <a href="http://www.twitter.com">
+                    <img src="images/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+                <li id="youtube">
+                  <a href="http://www.youtube.com">
+                    <img src="images/youtube.svg" alt="youtube">
+                  </a>
+                </li>
+            </ul>
+        </div>         
+        <nav class="footerNav">
+          <h2 class="hidden">Footer Navigation</h2>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact-Us</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="team.html">Our Team</a></li>
+              <li><a href="careers.html">Careers</a></li>
+            </ul>
+        </nav>
+        </div>  
+    </footer>
+  </div>
+</body>
 </html>
