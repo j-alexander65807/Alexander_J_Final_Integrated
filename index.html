@@ -12,6 +12,26 @@
     <header class="mainHeader">
       <div class="mainBanner">
         <img src="images/mainBanner.png" alt="Bourdagery's Café" id="banner">
+        <div class="socialMedia">
+            <h2 class="hidden">Social Media</h2>
+              <ul id="iconNav">
+                  <li id="facebook">
+                    <a href="http://www.facebook.com">
+                      <img src="images/facebook.svg" alt="facebook">
+                    </a>
+                  </li>
+                  <li id="twitter">
+                    <a href="http://www.twitter.com">
+                      <img src="images/twitter.svg" alt="twitter">
+                    </a>
+                  </li>
+                  <li id="youtube">
+                    <a href="http://www.youtube.com">
+                      <img src="images/youtube.svg" alt="youtube">
+                    </a>
+                  </li>
+              </ul>
+          </div>     
       </div>
       <nav class="mainNav">
         <h2 class="hidden">Main Navigation</h2>
@@ -21,29 +41,134 @@
                <li><a href="preorders.html">Pre-Orders</a></li>
             </ul>
       </nav>
-      <!--
-        <div class="socialMedia">
-          <h2 class="hidden">Social Media</h2>
-            <ul id="iconNav">
-                <li id="facebook">
-                  <a href="http://www.facebook.com">
-                    <img src="images/facebook.svg" alt="facebook">
-                  </a>
-                </li>
-                <li id="twitter">
-                  <a href="http://www.twitter.com">
-                    <img src="images/twitter.svg" alt="twitter">
-                  </a>
-                </li>
-                <li id="youtube">
-                  <a href="http://www.youtube.com">
-                    <img src="images/youtube.svg" alt="youtube">
-                  </a>
-                </li>
-            </ul>
-        </div>     -->  
+      
+        
     </header>
     <main>
+      <!-- Galleries -->
+      <!-- I found this code from https://www.w3schools.com/w3css/w3css_slideshow.asp that allows me to do
+        what I wanted if I adapt it and double it up. I'd prefer to use arrays and variables but this works -->
+        <div class="parentImageGallery" id="aboutGallery">
+            <div class="galleryTitle"><h2><a href="about.html">About Us</a></h2> </div>
+            
+            <img class="rightGallery aboutGalleryRight" src="images/bakeryInside2.jpg" alt="Bakery Interior">
+            <img class="rightGallery aboutGalleryRight" src="images/bakeryInside3.jpg" alt="Bakery Interior">
+            <img class="rightGallery aboutGalleryRight" src="images/bakeryOutsideWide.jpg" alt="Bakery Exterior">
+            <img class="rightGallery aboutGalleryRight" src="images/bakeryInside.jpg" alt="Bakery Interior"> 
+
+            <img class="leftGallery aboutGalleryLeft" src="images/bakeryInside.jpg" alt="Bakery Interior">
+            <img class="leftGallery aboutGalleryLeft" src="images/bakeryInside2.jpg" alt="Bakery Interior">
+            <img class="leftGallery aboutGalleryLeft" src="images/bakeryInside3.jpg" alt="Bakery Interior">
+            <img class="leftGallery aboutGalleryLeft" src="images/bakeryOutsideWide.jpg" alt="Bakery Exterior">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat et augue sed venenatis. Cras pretium eget mauris eget venenatis. Donec varius pretium dui id dapibus. 
+                Fusce consequat odio quis orci molestie placerat. Fusce lacus felis, consequat vel mattis non, condimentum a urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                Pellentesque eget porttitor justo. Nam placerat, felis vel porttitor convallis, lorem augue pellentesque lorem, at congue urna mauris finibus arcu. Integer consectetur pharetra imperdiet. 
+                Nam hendrerit consequat metus vel eleifend. In vitae mauris non erat finibus varius vel nec mauris. Proin porttitor vitae libero eleifend molestie. Aenean sed ultricies sapien, vel dictum 
+                odio. In mollis libero aliquet mauris auctor, a aliquam nunc egestas. 
+            </p>
+            <button onclick="about.html">Learn More</button>
+        </div>
+        <div class="parentImageGallery" id="eventGallery">
+            <div class="galleryTitle"><h2><a href="events.html">Events</a></h2> </div>
+                        
+            <img class="rightGallery eventGalleryRight" src="images/cards.jpg" alt="Card Tournaments">
+            <img class="rightGallery eventGalleryRight" src="images/painting.jpg" alt="Painting Classes">
+            <img class="rightGallery eventGalleryRight" src="images/frisbee.jpg" alt="Company Frisbee Team">
+            <img class="rightGallery eventGalleryRight" src="images/videoGames.jpg" alt="Video Game Tournaments"> 
+
+            <img class="leftGallery eventGalleryLeft" src="images/videoGames.jpg" alt="Video Game Tournaments">
+            <img class="leftGallery eventGalleryLeft" src="images/cards.jpg" alt="Card Tournaments">
+            <img class="leftGallery eventGalleryLeft" src="images/painting.jpg" alt="Painting Classes">
+            <img class="leftGallery eventGalleryLeft" src="images/frisbee.jpg" alt="Company Frisbee Team">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat et augue sed venenatis. Cras pretium eget mauris eget venenatis. Donec varius pretium dui id dapibus. 
+                Fusce consequat odio quis orci molestie placerat. Fusce lacus felis, consequat vel mattis non, condimentum a urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                Pellentesque eget porttitor justo. Nam placerat, felis vel porttitor convallis, lorem augue pellentesque lorem, at congue urna mauris finibus arcu. Integer consectetur pharetra imperdiet. 
+                Nam hendrerit consequat metus vel eleifend. In vitae mauris non erat finibus varius vel nec mauris. Proin porttitor vitae libero eleifend molestie. Aenean sed ultricies sapien, vel dictum 
+                odio. In mollis libero aliquet mauris auctor, a aliquam nunc egestas. 
+            </p>
+            <button onclick="events.html">Learn More</button>
+        </div>
+        <div class="parentImageGallery" id="teamGallery">
+            <div class="galleryTitle"><h2><a href="team.html">Our Team</a></h2> </div>
+            
+            
+            <img class="rightGallery teamGalleryRight" src="images/groupPhoto2.jpg" alt="Group Photo">
+            <img class="rightGallery teamGalleryRight" src="images/groupPhoto3.jpg" alt="Group Photo">
+            <img class="rightGallery teamGalleryRight" src="images/groupPhoto4.jpg" alt="Group Photo">
+            <img class="rightGallery teamGalleryRight" src="images/teamFun.jpg" alt="Group Photo">
+            <img class="rightGallery teamGalleryRight" src="images/teamHuddle.jpg" alt="Group Photo">
+            <img class="rightGallery teamGalleryRight" src="images/groupPhoto1.jpg" alt="Group Photo"> 
+
+            <img class="leftGallery teamGalleryLeft" src="images/groupPhoto1.jpg" alt="Group Photo"> 
+            <img class="leftGallery teamGalleryLeft" src="images/groupPhoto2.jpg" alt="Group Photo">
+            <img class="leftGallery teamGalleryLeft" src="images/groupPhoto3.jpg" alt="Group Photo">
+            <img class="leftGallery teamGalleryLeft" src="images/groupPhoto4.jpg" alt="Group Photo">
+            <img class="leftGallery teamGalleryLeft" src="images/teamFun.jpg" alt="Group Photo">
+            <img class="leftGallery teamGalleryLeft" src="images/teamHuddle.jpg" alt="Group Photo">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat et augue sed venenatis. Cras pretium eget mauris eget venenatis. Donec varius pretium dui id dapibus. 
+                Fusce consequat odio quis orci molestie placerat. Fusce lacus felis, consequat vel mattis non, condimentum a urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                Pellentesque eget porttitor justo. Nam placerat, felis vel porttitor convallis, lorem augue pellentesque lorem, at congue urna mauris finibus arcu. Integer consectetur pharetra imperdiet. 
+                Nam hendrerit consequat metus vel eleifend. In vitae mauris non erat finibus varius vel nec mauris. Proin porttitor vitae libero eleifend molestie. Aenean sed ultricies sapien, vel dictum 
+                odio. In mollis libero aliquet mauris auctor, a aliquam nunc egestas. 
+            </p>
+            <button onclick="team.html">Learn More</button>
+        </div>
+        <script>
+          var slideIndexA = 0; //used for about
+          var slideIndexB = 0; //used for events
+          var slideIndexC = 0; //used for teams
+
+          carousel();
+          
+          function carousel() {
+            var i; //used for about
+            var j; //used for events
+            var k; //used for teams
+            var x = document.getElementsByClassName("aboutGalleryLeft");
+            var y = document.getElementsByClassName("aboutGalleryRight");
+            var u = document.getElementsByClassName("eventGalleryLeft");
+            var v = document.getElementsByClassName("eventGalleryRight");
+            var s = document.getElementsByClassName("teamGalleryLeft");
+            var t = document.getElementsByClassName("teamGalleryRight");
+            //hide about images
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none"; 
+              y[i].style.display = "none";   
+            }
+            //hide event images
+            for (j = 0; j < u.length; j++) {
+              u[j].style.display = "none"; 
+              v[j].style.display = "none";             
+            }
+            //hide team images
+            for (k = 0; k < s.length; k++) {
+              s[k].style.display = "none"; 
+              t[k].style.display = "none";             
+            }
+
+            //increase
+            slideIndexA++;
+            slideIndexB++;
+            slideIndexC++;
+            //dont increase too much
+            if (slideIndexA > x.length) {slideIndexA = 1} 
+            if (slideIndexB > u.length) {slideIndexB = 1} 
+            if (slideIndexC > s.length) {slideIndexC = 1} 
+
+            // set slides to visible
+            x[slideIndexA-1].style.display = "block"; 
+            y[slideIndexA-1].style.display = "flex";
+            u[slideIndexB-1].style.display = "block"; 
+            v[slideIndexB-1].style.display = "flex";
+            s[slideIndexC-1].style.display = "block"; 
+            t[slideIndexC-1].style.display = "flex";
+
+            //do it again in 5 secs
+            setTimeout(carousel, 5000); 
+            
+          }
+        </script> 
 
     </main>
     <footer class="mainFooter">         
