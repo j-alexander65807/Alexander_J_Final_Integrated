@@ -18,4 +18,6 @@ Just Adobe, an editor and GitHub.
 Joshua Alexander
 
 #### License
+
 This project is licensed under MIT License
+
