@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Careers at Bourdagery's Café</title>  
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">  
+</head>
+<body>
+  <div class="container">
+    <h1 class="hidden">Careers at Bourdagery's Café</h1>
+    <header class="mainHeader">
+      <div class="mainBanner">
+        <img src="images/mainBanner.png" alt="Bourdagery's Café" id="banner">
+        <div class="socialMedia">
+            <h2 class="hidden">Social Media</h2>
+              <ul id="iconNav">
+                  <li id="facebook">
+                    <a href="http://www.facebook.com">
+                      <img src="images/facebook.svg" alt="facebook">
+                    </a>
+                  </li>
+                  <li id="twitter">
+                    <a href="http://www.twitter.com">
+                      <img src="images/twitter.svg" alt="twitter">
+                    </a>
+                  </li>
+                  <li id="youtube">
+                    <a href="http://www.youtube.com">
+                      <img src="images/youtube.svg" alt="youtube">
+                    </a>
+                  </li>
+              </ul>
+          </div>     
+      </div>
+      <nav class="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
+            <ul>
+               <li class="leftNavItem"><a href="index.html">Home</a></li>
+               <li class="leftNavItem"><a href="menu.html">Menu</a></li>
+               <li><a href="preorders.html">Pre-Orders</a></li>
+            </ul>
+      </nav>
+      
+        
+    </header>
+    <main>
+      <section id="mainContact"> <!--start mainContact-->
+        <h2>Contact Us</h2>
+        <section id="contactArea"><!--start contactArea-->
+          <h2 class="hidden">Contact form</h2>
+          <p id="contactText">Contact us about a Job posting or other career inquiries
+          </p> 
+          <form id="contactForm" action="form.php" method="post">
+            <label for="name">Name: (required)</label>
+            <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+          
+            <label for="email">Email: (will not be published)</label>
+            <input type="email" required id="email" size="30" placeholder="Enter your Email">
+          
+          
+            <label for="phone">Phone: (required)</label>
+            <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+          
+            <label for="comments">Inquiries:</label>
+            <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+          
+            <label for="human">What is the Ultimate Answer to 
+              <br>Life, The Universe and Everything?</label>
+            <input type="text" required id="human" size="30" placeholder="Don't Panic">
+         
+            <input id="submit" type="submit" value="Submit">
+          </form>
+        </section><!--end contactArea--> 
+      
+        <section id="jobsBoard"><!--start JobsBoards-->
+          <img src="images/groupPhoto2.jpg">
+          <h3>Job Postings</h3>
+          <ul>
+            <li>Full-Time Baker </li>
+            <li>Full-Time Barista </li>
+            <li>Part-Time Barista</li>
+            <li>Head Baker</li>
+          </ul>    
+      
+        </section><!--end jobs Board--> 
+      
+  
+      
+      </section><!--end mainContact-->
+        
+        
+
+    </main>
+    <footer class="mainFooter">         
+        <nav class="footerNav">
+          <h2 class="hidden">Footer Navigation</h2>
+            <ul>
+              <li class="leftNavItem"><a href="about.html">About</a></li>
+              <li class="leftNavItem"><a href="contact.html">Contact-Us</a></li>
+              <li class="leftNavItem"><a href="events.html">Events</a></li>
+              <li class="leftNavItem"><a href="team.html">Our Team</a></li>
+              <li class="selected"><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            <p>copyright info</p>
+        </div>
+      
+    </footer>
+  </div>
+</body>
+</html>
